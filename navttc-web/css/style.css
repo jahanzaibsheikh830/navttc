@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    line-height: 25px;
+}
+h1{
+    font-size: 50px;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.col-name{
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+}
+.col-icon{
+    float: left;
+    width: 50%;
+    text-align: right;
+    padding-right: 70px;
+}
+.col-icon a{
+    color: #ffffff;
+    padding-left: 20px;
+}
+.col{
+    color: #fc0f4a;
+}
+.header{
+    position: fixed;
+    background-color: #243238;
+    color: #ffffff;
+    padding: 20px 0;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: #fc0f4a;
+}
+ul li a:hover{
+    background-color: #ffffff;
+    color: #243238;
+}
+#slider{
+    color: #ffffff;
+    background-image: url('../images/slider.jpg');
+    padding: 300px 0 370px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid #fc0f4a;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #fc0f4a;
+    border: 1px solid #fc0f4a;
+    transition: .5s;
+}
+#about{
+    padding: 80px 0 80px 0px;
+    text-align: center;
+}
+#about img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+}
+#work{
+    text-align: center; 
+    background-color: #243238;
+    padding: 50px 0;
+}
+#work h2{
+    color: #ffffff;
+}
+#work img{
+    border: 1px solid #000;
+    width: 300px;
+    padding-left: 10px;
+}
+#work img:hover{
+    transition: .5s;
+    width: 350px;
+}
+#contact{ 
+    text-align: center;
+    color: #ffffff;
+    background-color: #1e1d24;
+    padding: 50px 0 50px 0px;
+}
+#contact label{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+#contact input[type=text]{
+    margin: 10px 0;
+    padding: 10px 200px 10px 20px;
+}
+#contact input[type=email]{
+    margin: 10px 0;
+    padding: 10px 200px 10px 20px;
+}
+#contact textarea{
+    margin: 10px 0;
+    padding: 10px 150px 0 20px  ;
+}
+#contact input[type=submit]{
+    padding: 10px 35px;
+    background: none;
+    color: #fc0f4a;
+    border: none;
+    border: 1px solid #fc0f4a;
+    cursor: pointer;
+}
+#contact input[type=submit]:hover{
+    background-color: #ffffff;
+    color: #fc0f4a;
+    transition: .5s;
+} 
+.priv{
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #243238;
+    padding: 10px 0;
+}
